@@ -65,7 +65,7 @@ The ethernet port where the device sending OSC data is connected needs to be set
   * [Ethernet2](https://www.arduinolibraries.info/libraries/ethernet2)
   * [OSCBundle](https://github.com/CNMAT/OSC)
 
-## Wiring 
+## Wiring
 
 This is wiring digram that i used for this sample but any other sensor could be used.
 
