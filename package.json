@@ -1,0 +1,24 @@
+{
+  "name": "electron-osc",
+  "author": "sebastien jouhans",
+  "version": "1.0.0",
+  "description": "A minimal Electron / osc application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "electron-app": "node_modules/.bin/electron-rebuild"
+  },
+  "keywords": [
+    "Electron",
+    "osc"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "osc": "^2.2.4"
+  }
+}
