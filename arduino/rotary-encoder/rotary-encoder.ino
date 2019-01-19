@@ -1,7 +1,3 @@
-/* 
- * Created for an arduino leonardo Eth 2
- */
-
 #include <Ethernet2.h>
 #include <EthernetUdp2.h>
 #include <SPI.h>
@@ -51,7 +47,6 @@ void loop() {
 }
 
 void doEncoderA() {
-
   // look for a low-to-high on channel A
   if (digitalRead(encoder0PinA) == HIGH) {
     // check channel B to see which way encoder is turning
@@ -78,7 +73,6 @@ void doEncoderA() {
 }
 
 void doEncoderB() {
-
   // look for a low-to-high on channel B
   if (digitalRead(encoder0PinB) == HIGH) {
     // check channel A to see which way encoder is turning
